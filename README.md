@@ -1,4 +1,5 @@
-##Customer Review Analytics: Sentiment Classification, Topic Extraction & Insights
+
+## Customer Review Analytics: Sentiment Classification, Topic Extraction & Insights
 
 An end-to-end **NLP and Machine Learning project** analyzing Amazon product reviews to extract:
 - **Sentiment Classification (Positive/Negative)**
@@ -136,7 +137,7 @@ Topic #2: ['quality', 'broke', 'cheap', 'issue', 'return']
 
 ## 9. Deployment Plan (AWS Lambda)
 
-📌 Proposed Architecture:
+Proposed Architecture:
 Client → API Gateway → AWS Lambda → Pre-trained Model → JSON Response
 
 - Input: {"review": "The product is amazing"}
@@ -145,7 +146,7 @@ Client → API Gateway → AWS Lambda → Pre-trained Model → JSON Response
   - "tfidf_vectorizer.joblib"
 - Output: {"sentiment": "Positive"}
 
-🔧 Suggested Steps:
+Suggested Steps:
 1. Package model + vectorizer using joblib.
 2. Create AWS Lambda (Python 3.9).
 3. Integrate with API Gateway for POST requests.
