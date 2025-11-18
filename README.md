@@ -8,8 +8,6 @@ An end-to-end **NLP and Machine Learning project** analyzing Amazon product revi
 - **Customer Satisfaction Metrics**
 - **Model Deployment Proposal using AWS Lambda**
 
-This project is designed as a **portfolio-ready ML case study** tailored to **Amazon Data Scientist Internship (2026)** requirements — demonstrating customer obsession, problem-solving, and deployment mindset.
-
 ---
 
 ## 1. Tech Stack
