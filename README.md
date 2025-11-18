@@ -126,7 +126,7 @@ Topic #2: ['quality', 'broke', 'cheap', 'issue', 'return']
 - Summary of Positive Reviews:
   "Customers appreciate fast delivery, quality packaging, and product reliability."
 
-- Summary of Negative Reviews:
+-  Summary of Negative Reviews:
   "Common complaints include delayed shipping, weak build materials, and refund challenges."
 
 - Helps management teams understand overall feedback without manually reading all reviews.
