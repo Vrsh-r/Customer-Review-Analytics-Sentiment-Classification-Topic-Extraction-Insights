@@ -1,4 +1,4 @@
-#Customer Review Analytics: Sentiment Classification, Topic Extraction & Insights
+##Customer Review Analytics: Sentiment Classification, Topic Extraction & Insights
 
 An end-to-end **NLP and Machine Learning project** analyzing Amazon product reviews to extract:
 - **Sentiment Classification (Positive/Negative)**
@@ -71,6 +71,7 @@ Customer-Review-Analytics/
 tfidf = TfidfVectorizer(max_features=5000, ngram_range=(1,2))
 X_train_tfidf = tfidf.fit_transform(X_train)
 ```
+---
 
 ## 5. Model Training Summary
 
@@ -86,6 +87,7 @@ X_train_tfidf = tfidf.fit_transform(X_train)
   joblib.dump(svm_clf, "svm_tfidf_model.joblib")
   joblib.dump(tfidf, "tfidf_vectorizer.joblib")
    ```
+---
 
 ## 6. Evaluation Metrics
 
@@ -102,6 +104,7 @@ X_train_tfidf = tfidf.fit_transform(X_train)
 - SVM outperformed Logistic Regression and was chosen for deployment.
 
 ```
+---
 
 ## 7. Topic Extraction
 
@@ -116,6 +119,8 @@ Topic #0: ['value', 'worth', 'recommend', 'great', 'price']
 Topic #1: ['late', 'shipping', 'delivery', 'delay', 'time']
 Topic #2: ['quality', 'broke', 'cheap', 'issue', 'return']
 
+---
+
 ## 8. Summarization
 
 - Used TextRank Summarizer (via Sumy)
@@ -126,6 +131,8 @@ Topic #2: ['quality', 'broke', 'cheap', 'issue', 'return']
   "Common complaints include delayed shipping, weak build materials, and refund challenges."
 
 - Helps management teams understand overall feedback without manually reading all reviews.
+
+---
 
 ## 9. Deployment Plan (AWS Lambda)
 
